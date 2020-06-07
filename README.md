@@ -6,6 +6,10 @@ Zoomy is an easy to use pinch-to-zoom Android library
 
 Zoomy is available in the JCenter, so you just need to add it as a dependency
 ```gradle
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
 implementation 'com.github.fedor-jedi:zoomy:1.1.0'
 ```
 
