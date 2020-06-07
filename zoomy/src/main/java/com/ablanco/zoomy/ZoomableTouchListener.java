@@ -259,7 +259,7 @@ class ZoomableTouchListener implements View.OnTouchListener, ScaleGestureDetecto
     }
 
     private void showSystemUI() {
-        mTargetContainer.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
+        mTargetContainer.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
     }
 
     private void disableParentTouch(ViewParent view) {
